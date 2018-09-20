@@ -32,7 +32,7 @@ var Header = require('./components/common/header');
         React.render(<App route={route} />, document.getElementById('app'));
     }
 
-    win.addEventListener('hashchange', render());
+    win.addEventListener('hashchange', render);
     render();
 
 })(window);

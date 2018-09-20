@@ -7,7 +7,7 @@ var Home = React.createClass({
         return (
             <div className="jumbotron">
                 <h1>Pluralsight Administration</h1>
-                <p>React, React, and Flux for ultra-responsive web apps</p>
+                <p>React, React Router, and Flux for ultra-responsive web apps</p>
             </div>
         );
     }
